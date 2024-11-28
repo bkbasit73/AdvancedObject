@@ -1,11 +1,10 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body and Background */
+
   body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(135deg, #f6d365 10%, #fda085 100%); /* Gradient Background */
@@ -13,7 +12,7 @@
     line-height: 1.6;
   }
   
-  /* Container */
+  
   .container {
     width: 90%;
     max-width: 1200px;
@@ -28,9 +27,9 @@
     overflow: hidden;
   }
   
-  /* Header */
+
   header {
-    background: #2C3E50; /* Dark Blue Background */
+    background: #2C3E50; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -42,17 +41,17 @@
   }
   
   header p {
-    color: #ECF0F1; /* Light Gray */
+    color: #ECF0F1; 
     font-size: 1.2rem;
   }
   
-  /* Instructions Section */
+  
   .content {
     margin-top: 30px;
   }
   
   .content .info {
-    background: #2980B9; /* Blue Background */
+    background: #2980B9; 
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,13 +78,13 @@
   
   .content .info ul li::before {
     content: "✔";
-    color: #f39c12; /* Yellow checkmark */
+    color: #f39c12; 
     position: absolute;
     left: 0;
     top: 0;
   }
   
-  /* Footer */
+  
   footer {
     text-align: center;
     font-size: 1rem;
@@ -97,11 +96,11 @@
     margin: 10px 0;
   }
   
-  /* Hover Effects */
+  
   button,
   a {
     color: #fff;
-    background-color: #27AE60; /* Green */
+    background-color: #27AE60; 
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
@@ -111,8 +110,8 @@
   
   button:hover,
   a:hover {
-    background-color: #2ecc71; /* Brighter Green */
-    transform: scale(1.1); /* Hover effect to enlarge */
+    background-color: #2ecc71; 
+    transform: scale(1.1); 
   }
   
   a {
@@ -120,7 +119,7 @@
     margin-top: 20px;
   }
   
-  /* Card-style Section */
+
   .card {
     background-color: #fff;
     border-radius: 10px;
@@ -131,10 +130,10 @@
   }
   
   .card:hover {
-    transform: translateY(-10px); /* Card lift on hover */
+    transform: translateY(-10px); 
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     header h1 {
       font-size: 2rem;
@@ -144,7 +143,7 @@
       padding: 20px;
     }
   
-    .content .info h2 {
+.content .info h2 {
       font-size: 1.5rem;
     }
   
